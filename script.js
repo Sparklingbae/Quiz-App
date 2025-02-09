@@ -2,7 +2,7 @@ const questions = [
     {
         question: "What is the correct way to declare a variable in JavaScript?",
         options: ["var myVar = 10;", "let myVar = 10;", "const myVar = 10;", "All of the above"],
-        correctAnswerIndex: 3
+        correctAnswerIndex: 3 // "All of the above"
     },
     {
         question: "Which of the following is a correct way to define a function in JavaScript?",
@@ -12,37 +12,37 @@ const questions = [
             "def myFunction() { console.log('Hello!'); }",
             "func myFunction() { console.log('Hello!'); }"
         ],
-        correctAnswerIndex: 0
+        correctAnswerIndex: 0 // "function myFunction() { console.log('Hello!'); }"
     },
     {
         question: "What will be the output of the following code?\nconsole.log(typeof null);",
         options: ["null", "object", "undefined", "string"],
-        correctAnswerIndex: 1
+        correctAnswerIndex: 1 // "object"
     },
     {
         question: "Which operator is used to compare both value and type in JavaScript?",
         options: ["==", "===", "=", "!=="],
-        correctAnswerIndex: 1
+        correctAnswerIndex: 1 // "==="
     },
     {
         question: "How do you create an array in JavaScript?",
         options: ["var arr = {};", "var arr = []", "var arr = ();", "var arr = array();"],
-        correctAnswerIndex: 1
+        correctAnswerIndex: 1 // "var arr = []"
     },
     {
         question: "Which of the following statements is correct for creating a JavaScript object?",
         options: ["var obj = { key: value };", "var obj = [key: value];", "var obj = (key: value);", "var obj = <key: value>;"],
-        correctAnswerIndex: 0
+        correctAnswerIndex: 0 // "var obj = { key: value };"
     },
     {
         question: "What will the following code output?\nlet x = 10;\nx = 'Hello';\nconsole.log(x);",
         options: ["10", "'Hello'", "undefined", "error"],
-        correctAnswerIndex: 1
+        correctAnswerIndex: 1 // "'Hello'"
     },
     {
         question: "How do you write a single-line comment in JavaScript?",
         options: ["// This is a comment", "<!-- This is a comment -->", "/* This is a comment */", "# This is a comment"],
-        correctAnswerIndex: 0
+        correctAnswerIndex: 0 // "// This is a comment"
     },
     {
         question: "What does the Array.prototype.push() method do in JavaScript?",
@@ -52,7 +52,7 @@ const questions = [
             "Returns the last element of an array.",
             "Adds an element to the beginning of an array."
         ],
-        correctAnswerIndex: 0
+        correctAnswerIndex: 0 // "Adds an element to the end of an array."
     },
     {
         question: "Which of the following will cause an error in JavaScript?",
@@ -62,7 +62,7 @@ const questions = [
             "console.log(5 * 'hello');",
             "console.log(true + false);"
         ],
-        correctAnswerIndex: 2
+        correctAnswerIndex: 2 // "console.log(5 * 'hello');"
     },
     {
         question: "What is the output of the following code?\nlet a = [1, 2, 3];\nlet b = a;\nb.push(4);\nconsole.log(a);",
@@ -72,12 +72,12 @@ const questions = [
             "[4, 1, 2, 3]",
             "[4]"
         ],
-        correctAnswerIndex: 1
+        correctAnswerIndex: 1 // "[1, 2, 3, 4]"
     },
     {
         question: "What is the result of this expression in JavaScript?\nconsole.log(0 == false);",
         options: ["true", "false", "undefined", "NaN"],
-        correctAnswerIndex: 0
+        correctAnswerIndex: 0 // "true"
     },
     {
         question: "Which of the following is the correct way to create a 'for' loop in JavaScript?",
@@ -87,12 +87,12 @@ const questions = [
             "loop (let i = 0; i < 10; i++)",
             "for (i <= 10; i++)"
         ],
-        correctAnswerIndex: 0
+        correctAnswerIndex: 0 // "for (let i = 0; i < 10; i++)"
     },
     {
         question: "How can you check if a variable is an array in JavaScript?",
         options: ["Array.isArray(variable);", "variable instanceof Array;", "typeof variable === 'array';", "Both a) and b)"],
-        correctAnswerIndex: 3
+        correctAnswerIndex: 3 // "Both a) and b)"
     },
     {
         question: "What does the 'this' keyword refer to in JavaScript?",
@@ -102,7 +102,7 @@ const questions = [
             "The object from which the method was called.",
             "None of the above."
         ],
-        correctAnswerIndex: 2
+        correctAnswerIndex: 2 // "The object from which the method was called."
     }
 ];
 
